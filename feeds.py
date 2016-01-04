@@ -48,5 +48,4 @@ def get_feeds(id):
         
         
 
-init("CAACEdEose0cBAOF6SKn1JqgoBztGnwMZB7rQZBvM6AVtgVsmEqncOye6Y0zUSNe9jXc2io9MJmebuoysh3RQpUAxsd6W9d5lfIZAqaLoIkSQwk4kZClBcZCXe2kZAd6E8TN6VjDQ7PPquj3JW7DZAGHChnGCdpnP1dQOUmyVc6epE3CzkFvegqZC5KRobgEePWDNfctjwr0tZBThKIWhk4j9k")
-get_feeds("1507381422828751")
+

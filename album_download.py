@@ -3,8 +3,8 @@ import requests
 import urllib
 import json
 import codecs
-graph = facebook.GraphAPI("CAACEdEose0cBAOCOsf4UVzbzEIrxkIHZBZCsnf3m8aFYLbfNONmdikd9NGKhqHB5IVCZCNdCotPVYGjpMaW91e8XAc2uZCyEjHLCkPRZApqznhtmzpeWCvVFQrH8OalUPnCxUSKPPntZCXOHU2WDKC0LTxZBtfXZCKcf0QXPbcPlkViUop7ckZCCCjPyvqaKeOvMokpASGfZAcKIZAtIG3Ek6Cd")
-images=graph.get_object('713365788733305/photos?limit=621')
+graph = facebook.GraphAPI("")
+images=graph.get_object('')
 i=0
 
 ##with open('2.json') as data_file:
