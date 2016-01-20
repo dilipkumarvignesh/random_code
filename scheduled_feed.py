@@ -19,6 +19,7 @@ def publish_image(album_id,pic_name,**kwargs):
         send_data={'access_token':token}
         if kwargs is not None:
           send_data.update(kwargs)
+           
         r=requests.post("https://graph.facebook.com/v2.5/"+str(album_id)+"/photos",files={'source':open(str(pic_name)+'.jpg','rb')},
                     data=send_data)
         return r.content
